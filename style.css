@@ -6,7 +6,7 @@ body {
         rgba(0, 0, 0, 0.2), 
         rgba(0, 0, 0, 0.2)
     ), 
-        url('drums_background_2.jpg'); /* Specify the path to your background image */
+        url('assets/drums_background_2.jpg'); /* Specify the path to your background image */
     background-size: cover;
     background-position: center;
     height: 100vh;
