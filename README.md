@@ -1,11 +1,6 @@
-# 30 Days JavaScript
+# JavaScript Drum Kit App
+![](screenshot-drum-kit-live.png)
 
-For this project, I will learn JS for 30 days, and make a small project using html, css & JS every single day.
-## DAY 1
-#### JS Concepts learned: 
-- map()
-- filter()
-- reduce()
-array methods.
+A simple drum kit simulator app using html, css and JavaScript.
 
-#### Day 1 Project: JavaScript Drum Kit
+Use your home-row keys to play!
