@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains mono', sans-serif;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+    ), 
+        url('drums_background_2.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent white background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e3e3e3;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+
+.key kbd {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.key span {
+    color: rgb(182, 182, 181);
+}
+
+.key:hover {
+    transform: scale(1.1);
+}
+
+.sound {
+    font-size: 14px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 2px solid orange;
+    box-shadow: 0 0 10px orange;
+    background: linear-gradient(rgb(255, 213, 0), orange);
+}
