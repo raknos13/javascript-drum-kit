@@ -1,5 +1,5 @@
 # JavaScript Drum Kit App
-![](screenshot-drum-kit-live.png)
+![<img src="assets/screenshot-drum-kit-live.png">](https://raknos13.github.io/javascript-drum-kit/)
 
 A simple drum kit simulator app using html, css and JavaScript.
 
